@@ -1,0 +1,5 @@
+package fruitNinjaPack;
+
+public interface Command {
+public void execute();
+}
