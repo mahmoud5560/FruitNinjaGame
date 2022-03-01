@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="875.0" styleClass="bodybggame" stylesheets="@LevelBg.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fruitNinjaPack.levelController">
+   <children>
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="733.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/blhrt.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="662.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/blhrt.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="live2" fitHeight="58.0" fitWidth="109.0" layoutX="709.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/heart.ngsversion.1396531395268.adapt.1900.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="slicedappleImageright" fitHeight="131.0" fitWidth="109.0" layoutX="427.0" layoutY="33.0" visible="false">
+         <image>
+            <Image url="@Images/cutRedApples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="live3" fitHeight="58.0" fitWidth="109.0" layoutX="638.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/heart.ngsversion.1396531395268.adapt.1900.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="800.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/blhrt.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="slicedappleImageleft" fitHeight="131.0" fitWidth="109.0" layoutX="329.0" layoutY="33.0" visible="false">
+         <image>
+            <Image url="@Images/cutRedApples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="live1" fitHeight="58.0" fitWidth="109.0" layoutX="776.0" layoutY="13.0">
+         <image>
+            <Image url="@Images/heart.ngsversion.1396531395268.adapt.1900.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="slicedbannanaImageleft" fitHeight="153.0" fitWidth="153.0" layoutX="351.0" layoutY="13.0" visible="false">
+         <image>
+            <Image url="@Images/lowercutBannana.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="slicedWatermelon" fitHeight="92.0" fitWidth="116.0" layoutX="380.0" layoutY="59.0" visible="false">
+         <image>
+            <Image url="@Images/cutWatermelon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="slicedbannanaImageright" fitHeight="153.0" fitWidth="153.0" layoutX="374.0" layoutY="13.0" visible="false">
+         <image>
+            <Image url="@Images/uppercutBannana.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fruitImage1" fitHeight="150.0" fitWidth="200.0" layoutX="338.0" layoutY="15.0" onMouseEntered="#SliceObject" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="82.0" layoutY="51.0" text="SCORE:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="score" layoutX="201.0" layoutY="49.0" prefHeight="17.0" prefWidth="61.0" text="0">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="96.0" text="HIGH SCORE:">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="highScore" layoutX="232.0" layoutY="90.0" text="0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="587.0" layoutY="510.0" mnemonicParsing="false" onAction="#onPressSave" prefHeight="57.0" prefWidth="235.0" styleClass="btn" stylesheets="@styling.css" text="Exit to main menu" />
+      <ImageView fx:id="lose" fitHeight="406.0" fitWidth="508.0" layoutX="162.0" layoutY="59.0" visible="false">
+         <image>
+            <Image url="@Images/images.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gold" fitHeight="77.0" fitWidth="109.0" layoutX="373.0" layoutY="51.0" visible="false">
+         <image>
+            <Image url="@Images/gold.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boom" fitHeight="92.0" fitWidth="116.0" layoutX="400.0" layoutY="33.0" visible="false">
+         <image>
+            <Image url="@Images/boom.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

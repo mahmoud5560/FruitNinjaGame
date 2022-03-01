@@ -1,0 +1,4 @@
+.bodybggame{
+	-fx-background-image : url("/fruitNinjaPack/Images/FruitNinjaLevelBg.jpg");
+	-fx-background-size: 100% 100%;
+}
